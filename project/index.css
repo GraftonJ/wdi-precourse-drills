@@ -1,0 +1,182 @@
+p {
+  font-family: trebuchet;
+}
+
+.nav-bar {
+  border: 2px solid grey;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+  font-family: trebuchet;
+  font-size: 20px;
+}
+
+.nav-item {
+
+  padding: 5px;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+@media (min-width: 900px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+}
+.column-layout {
+  display: flex;
+}
+
+.column-layout-about {
+  display: flex;
+}
+
+.main-column {
+  padding-left: 50px;
+  flex: 1;
+  height: 500px;
+  background-image: url(https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprd3833704.jpg);
+  background-repeat: no-repeat;
+  background-size: 1330px 775px;
+}
+
+.main-column-about {
+  padding-left: 50px;
+  flex: 1;
+  height: 500px;
+  background-image: url(https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprd3833704.jpg);
+  background-repeat: no-repeat;
+  background-size: 1330px 775px;
+}
+
+.main-text {
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: "garamond";
+}
+
+.main-content {
+  font-family: trebuchet;
+  margin: 335px 220px 0px 0px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.call-out-container {
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  height: 300px;
+}
+
+.call-out-container-about {
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  height: 300px;
+}
+
+.call-out {
+  padding: 1px;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  text-align: center;
+  font-family: trebuchet;
+  font-size: 25px;
+
+}
+
+.call-out-about {
+  padding: 1px;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  text-align: center;
+  font-family: trebuchet;
+  font-size: 25px;
+
+}
+
+.call-out-1 {
+  color: white;
+  background: url(https://yt3.ggpht.com/a-/ACSszfHZQIZSinRb-jxaRLz4nlyEHd1NJIGVwcuwaQ=s900-mo-c-c0xffffffff-rj-k-no);
+  background-size: 370px 320px;
+  padding: 0px 0px;
+}
+
+.call-out-2 {
+  color: white;
+  background: url(https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/9d/4e/47/9d4e4743-f275-9425-92c3-6842ec9e0c10/Prod-1x_U007emarketing-85-220-0-5.png/246x0w.jpg);
+  background-size: 395px 340px;
+  padding: 0px 0px;
+}
+
+.call-out-3 {
+  color: white;
+  background: url(https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-512.png);
+  background-size: 400px 350px;
+  padding: 0px 0px;
+}
+
+.call-out:nth-child(1) {background-color: red;}
+.call-out:nth-child(2) {background-color: black;}
+.call-out:nth-child(3) {background-color: white;}
+
+@media (min-width: 900px) {
+  .call-out-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.about-container {
+  display: flex;
+  border: 2px solid;
+  margin: 2px 1px;
+  font-family: trebuchet;
+  color: black;
+}
+
+.about-content {
+  flex: 1;
+  padding: 5px 20px;
+  font-family: trebuchet;
+  font-size: 25px;
+  background-color: #7a7a52;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+body{
+  background-color: #C0AB8E;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+li {
+  margin:0 0 10px 0;
+}
+
+a {
+  color: white;
+  font-family: trebuchet;
+  text-decoration: none;
+}
